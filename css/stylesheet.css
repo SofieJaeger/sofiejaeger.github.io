@@ -42,6 +42,7 @@ h2{
   border-bottom: 1px solid lightgrey;
   padding-bottom: 25px;
 }
+
 body{
   background-color: white;
   display: flex;
@@ -72,8 +73,8 @@ header, nav, footer{
 }
 
 .image{
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
   margin-left: 10px;
   display: inline-block;
 
@@ -90,20 +91,21 @@ header, nav, footer{
 
 .contentbox{
   display: inline-block;
+
 }
 .contentbox a{
   display: none;
 }
 
-.contentbox:hover a{
+.contentbox:hover a {
   display: block;
   position: absolute;
   height: 110px;
   width: 210px;
   background-color: rgba(255,255,255,0.7);
   padding-top: 90px;
+  border-bottom: 30px solid white;
 }
-
 
 .wrappersites{
   margin-left: auto;
@@ -123,12 +125,21 @@ header, nav, footer{
   margin-top: 0px;
  }
 
-
 .text{
   display: inline-block;
   text-align: center;
   font-family: 'Questrial', sans-serif;
   font-size: 15pt;
+}
+
+.textunterbild{
+  font-family: 'Questrial', sans-serif;
+  font-size: 11pt;
+  margin-top: 5px;
+}
+
+.textunterbild:hover {
+  color: white;
 }
 
 footer{
