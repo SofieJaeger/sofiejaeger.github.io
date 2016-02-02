@@ -98,10 +98,10 @@ header, nav, footer{
 .contentbox:hover a{
   display: block;
   position: absolute;
-    height: 110px;
-    width: 210px;
-    background-color: rgba(255,255,255,0.7);
-    padding-top: 90px;
+  height: 110px;
+  width: 210px;
+  background-color: rgba(255,255,255,0.7);
+  padding-top: 90px;
 }
 
 

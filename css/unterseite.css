@@ -119,25 +119,7 @@ h2{
   text-align-last: right;
 }
 
-.contentboxportfolio{
-  display: inline-block;
-  height: 30px;
-  text-align: center;
-  padding-left: 0px;
-  margin-top: 0px;
-}
-.contentboxportfolio a{
-  display: none;
-}
-.contentboxportfolio:hover a{
-  display: block;
-  position: absolute;
-  height: 110px;
-  width: 210px;
-  padding-top: 90px;
-  color: black;
-  background-color: rgba(255,255,255,0.8);
-}
+
 
 .galerie{
   display: inline-block;
@@ -158,19 +140,7 @@ h2{
   padding-right: 10px;
 }
 
+.gallery-cell{
+  width: 20%;
 
-.pic-container{
-width:100%;
-white-space:nowrap;
-overflow-x:inherit;
-overflow-y:hidden;
-margin-left: 20px;
-margin-right: 20px;
-margin-bottom: 50px;
-margin-top: 10px;
-}
-
-.pic-row {
-width: 1500px;
-height: 300px;
 }
