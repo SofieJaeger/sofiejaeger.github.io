@@ -141,8 +141,8 @@ http://flickity.metafizzy.co
 }
 
 .gallery-cell {
-  width: 33%;
-  height: 480px;
+  width: 53%;
+  height: auto;
   margin-right: 10px;
 }
 

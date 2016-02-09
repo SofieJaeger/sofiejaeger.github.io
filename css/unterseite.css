@@ -9,6 +9,7 @@ a:hover {
 }
 
 body{
+  width: 100%;
   background-color: white;
   display: flex;
   flex-flow: row wrap;
@@ -87,6 +88,7 @@ h2{
   text-align: left;
   font-family: 'Questrial', sans-serif;
   font-size: 11pt;
+  margin-bottom: 10px;
 }
 .rahmen{
   border-top: 1px solid lightgrey;
@@ -154,6 +156,9 @@ h2{
   padding-right: 10px;
 }
 
+.kasten{
+  height: 300px;
+}
 
 @media only screen and (max-width: 768px){
 

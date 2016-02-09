@@ -22,7 +22,12 @@ header, nav, footer{
   flex: 1 100%;
 }
  img{
-   width: 50%;
+   width: 90%;
+ }
+
+ .kasten{
+   height: 900px;
+   position: absolute;
  }
 
  .wrapper{
@@ -44,6 +49,7 @@ header, nav, footer{
 
  .nav-desktop{
    font-family: 'Questrial', sans-serif;
+   font-size: 12pt;
    margin-right: 20px;
    text-align: center;
    display: block;
