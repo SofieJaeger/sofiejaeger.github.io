@@ -136,6 +136,7 @@ header, nav, footer{
   font-family: 'Questrial', sans-serif;
   font-size: 11pt;
   margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 .textunterbild:hover {
@@ -145,4 +146,31 @@ header, nav, footer{
 footer{
 border-top: 1px solid lightgrey;
 padding-top: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+  .wrapper{
+    width: calc(100% - 40px;
+    padding: 0 20px;
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+
+  .main-nav-sites-mobile{
+    display: block;
+    font-size: 15px;
+  }
+
+  .main-nav-sites-desktop{
+    display: none;
+  }
+
+
 }

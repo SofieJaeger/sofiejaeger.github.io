@@ -16,7 +16,7 @@ http://flickity.metafizzy.co
 
 .flickity-slider {
   position: absolute;
-  width: 83%;
+  width: 100%;
   height: 100%;
 }
 
@@ -140,34 +140,16 @@ http://flickity.metafizzy.co
   opacity: 1;
 }
 
-
-$('.main-gallery').flickity({
-  // options
-  cellAlign: 'left',
-  contain: true
-});
-
-/* external css: flickity.css */
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-
-.gallery {
-  background: white;
-}
-
 .gallery-cell {
-  width: 75%;
-  height: 500px;
+  width: 33%;
+  height: 480px;
   margin-right: 10px;
-  counter-increment: gallery-cell;
 }
 
-/* cell number */
-.gallery-cell:before {
-  display: block;
-  color: grey;
+.gallery-cell.size-340 {
+  width: 340px;
+}
+
+.gallery-cell.size-large {
+  width: 640px;
 }

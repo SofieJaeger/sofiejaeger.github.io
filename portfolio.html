@@ -1,27 +1,37 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>wannwennjetztnicht</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/stylesheet.css" media="screen, protection"/>
   <link rel="stylesheet" href="css/unterseite.css" media="screen, protection"/>
-  <link rel="stylesheet" href="css/flickity.css" media="screen">
-  <script src="css/flickity.pkgd.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/flickity/flickity-docs.css" media="screen">
+  <script src="https://npmcdn.com/flickity@1.1/dist/flickity.pkgd.js"></script>
+
 </head>
 
 <body>
   <div class="wrapper">
-      <header class="header">
-        <h2>sofie jaeger</h2>
+    <header class="header">
+        <a href="index.html"><h2>sofie jaeger</h2></a>
 
-        <nav class="main-nav-sites">
-          <a href="index.html">home</a>
-          <a href="aboutme.html">über mich</a>
-          <a href="portfolio.html">portfolio</a>
-          <a href="kontakt.html">kontakt</a>
+      <nav class="nav-desktop">
+            <a href="index.html">home</a>
+            <a href="aboutme.html">über mich</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="kontakt.html">kontakt</a>
         </nav>
-      </header>
+
+        <nav class="main-nav-sites-mobile">
+              <a href="index.html">home</a>
+              <a href="aboutme.html">über mich</a>
+              <a href="portfolio.html">portfolio</a>
+              <a href="kontakt.html">kontakt</a>
+          </nav>
+    </header>
   </div>
 
   <div class="wrapperportfolio">
@@ -29,12 +39,11 @@
       Berlin (Analog)
     </div>
   </div>
-<!-- Flickity HTML init -->
-  <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true}'>
+
+  <div class="gallery js-flickity">
           <div class="gallery-cell"><img src="images/1berlin.jpg" alt="Berlin"></div>
           <div class="gallery-cell"><img src="images/2berlin.jpg" alt="Berlin"></div>
           <div class="gallery-cell"><img src="images/3berlin.jpg" alt="Berlin"></div>
-          <div class="gallery-cell"><img src="images/4berlin.jpg" alt="Berlin"></div>
           <div class="gallery-cell"><img src="images/5berlin.jpg" alt="Berlin"></div>
           <div class="gallery-cell"><img src="images/6berlin.jpg" alt="Berlin"></div>
           <div class="gallery-cell"><img src="images/7berlin.jpg" alt="Berlin"></div>
@@ -50,11 +59,8 @@
       </div>
     </div>
 <!-- Flickity HTML init -->
-    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true}'>
-          <div class="gallery-cell"><img src="images/1skizzen.jpg" alt="Skizzen"></div>
-          <div class="gallery-cell"><img src="images/2skizzen2.jpg" alt="Skizzen"></div>
+    <div class="gallery js-flickity">
           <div class="gallery-cell"><img src="images/3skizzen.jpg" alt="Skizzen"></div>
-          <div class="gallery-cell"><img src="images/4skizzen.jpg" alt="Skizzen"></div>
           <div class="gallery-cell"><img src="images/5skizzen.jpg" alt="Skizzen"></div>
           <div class="gallery-cell"><img src="images/6skizzen.jpg" alt="Skizzen"></div>
           <div class="gallery-cell"><img src="images/7skizzen.jpg" alt="Skizzen"></div>
@@ -68,13 +74,12 @@
   </div>
 
 <!-- Flickity HTML init -->
-  <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true}'>
-      <div class="gallery-cell"><img src="images/3astrid.jpg" alt="Astrid3"></div>
-      <div class="gallery-cell"><img src="images/5jana.jpg" alt="Jana5"></div>
-      <div class="gallery-cell"><img src="images/6jana.jpg" alt="Jana6"></div>
-      <div class="gallery-cell"><img src="images/10jana.jpg" alt="Jana10"></div>
-      <div class="gallery-cell"><img src="images/11jana.jpg" alt="Jana11"></div>
-      <div class="gallery-cell"><img src="images/12jana.jpg" alt="Jana12"></div>
+  <div class="gallery js-flickity">
+      <div class="gallery-cell size-large"><img src="images/3astrid.jpg" alt="Astrid3"></div>
+      <div class="gallery-cell size-340"><img src="images/5jana.jpg" alt="Jana5"></div>
+      <div class="gallery-cell size-large"><img src="images/6jana.jpg" alt="Jana6"></div>
+       <div class="gallery-cell size-340"><img src="images/11jana.jpg" alt="Jana11"></div>
+      <div class="gallery-cell size-large"><img src="images/12jana.jpg" alt="Jana12"></div>
   </div>
 
 </body>

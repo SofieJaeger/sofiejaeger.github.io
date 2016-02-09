@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: lightgrey;
+  transition-timing-function: 0,5s;
+}
+
+body{
+  background-color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+header{
+  margin-top: 100px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+header, nav, footer{
+  flex: 1 100%;
+}
+ img{
+   width: 50%;
+ }
+
+ .wrapper{
+   margin-left: auto;
+   margin-right: auto;
+   width: 660px;
+   height: auto;
+   padding-left: 20px;
+   padding-bottom: 20px;
+   padding-top: 10px;
+   padding-right: 10px;
+ }
+
+ header{
+   margin-top: 100px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+ }
+
+ .nav-desktop{
+   font-family: 'Questrial', sans-serif;
+   margin-right: 20px;
+   text-align: center;
+   display: block;
+   margin-bottom: 20px;
+ }
+ .main-nav-sites-mobile{
+   display: none;
+ }
+
+ h2{
+   text-align: center;
+   font-family: 'Questrial', sans-serif;
+   font-size: 25pt;
+   font-style:normal;
+   color: lightgrey;
+   border-bottom: 1px solid lightgrey;
+   padding-bottom: 25px;
+ }
