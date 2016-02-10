@@ -147,18 +147,29 @@ h2{
   height: 100%;
   display: inline-block;
 }
-.imagegaleriequer{
-  width: 94%;
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 
 .kasten{
-  height: 300px;
+  height: 400px;
 }
+
+img.zoom {
+ transition: transform 0.9s;
+ -moz-transition: transform 0.9s;
+ -webkit-transition: transform 0.9s;
+ -o-transition: transform 0.9s;
+ -ms-transition: transform 0.9s;
+}
+img.zoom:hover {
+ cursor: zoom-in;
+ cursor: -moz-zoom-in;
+ cursor: -webkit-zoom-in;
+ transform: scale(4.0, 4.0);
+ -moz-transform: scale(4.0, 4.0);
+ -webkit-transform: scale(4.0, 4.0);
+ -o-transform: scale(4.0, 4.0);
+ -ms-transform: scale(4.0, 4.0);
+}
+
 
 @media only screen and (max-width: 768px){
 
@@ -168,6 +179,11 @@ h2{
 
   .wrapperportfolio{
     width: calc(100% - 40px)
+  }
+
+  .kasten{
+    width: auto;
+    margin-bottom: 10px;
   }
 }
 
@@ -215,4 +231,8 @@ h2{
     text-align: center;
   }
 
+  .kasten{
+    height: auto;
+    margin-bottom: 100px;
+}
 }

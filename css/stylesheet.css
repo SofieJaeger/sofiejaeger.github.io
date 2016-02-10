@@ -94,12 +94,14 @@ header, nav, footer{
 
 }
 .contentbox a{
-  display: none;
+  display: block;
+  position: absolute;
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 210px;
 }
 
 .contentbox:hover a {
-  display: block;
-  position: absolute;
   height: 110px;
   width: 210px;
   background-color: rgba(255,255,255,0.7);
@@ -130,17 +132,6 @@ header, nav, footer{
   text-align: center;
   font-family: 'Questrial', sans-serif;
   font-size: 15pt;
-}
-
-.textunterbild{
-  font-family: 'Questrial', sans-serif;
-  font-size: 11pt;
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-.textunterbild:hover {
-  color: white;
 }
 
 footer{
