@@ -77,6 +77,7 @@ header, nav, footer{
   height: 200px;
   margin-left: 10px;
   display: inline-block;
+  margin-bottom: 35px;
 
 }
 
@@ -99,6 +100,7 @@ header, nav, footer{
   width: 200px;
   padding-left: 10px;
   padding-top: 210px;
+
 }
 
 .contentbox:hover a {
@@ -162,6 +164,7 @@ padding-top: 10px;
   .main-nav-sites-desktop{
     display: none;
   }
+
 
 
 }
