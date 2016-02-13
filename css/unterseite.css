@@ -191,12 +191,13 @@ h2{
   }
   .imageaboutme2{
     width: 100%;
+    margin-left: 1px;
     margin-bottom: 10px;
     display: inline-block;
     float: right;
   }
   .rahmen{
-    width: 100%;
+    width: 99%;
     height: auto;
   }
 
