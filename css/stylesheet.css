@@ -148,7 +148,7 @@ padding-top: 10px;
 @media only screen and (max-width: 768px){
 
   .wrapper{
-    width: calc(100% - 40px;
+    width: 100%;
     padding: 0 20px;
   }
 
@@ -164,6 +164,10 @@ padding-top: 10px;
   .main-nav-sites-desktop{
     display: none;
   }
+
+.contentbox{
+margin-bottom: 25px;
+}
 
 
 
